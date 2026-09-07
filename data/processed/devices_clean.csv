@@ -1,0 +1,261 @@
+device_id,device_type,manufacturer,model,purchase_date,purchase_cost,department_owner,location,status
+DEV0001,Laptop,Dell,Latitude 5440,2022-04-27,1238,HR,Dallas,Available
+DEV0002,Laptop,Apple,MacBook Air M3,2025-01-21,1309,Operations,College Station,Checked Out
+DEV0003,Laptop,Lenovo,ThinkPad T14,2024-07-21,1249,HR,College Station,Available
+DEV0004,Monitor,Dell,P2425H,2023-08-09,297,HR,Houston,Checked Out
+DEV0005,Monitor,LG,27UP850,2023-12-11,392,Marketing,Austin,Available
+DEV0006,Tablet,Apple,iPad Air,2023-12-22,695,Finance,Houston,Checked Out
+DEV0007,Tablet,Samsung,Galaxy Tab S9,2024-06-29,790,Marketing,Dallas,Checked Out
+DEV0008,Camera,Canon,EOS R50,2025-03-07,875,Marketing,Dallas,Available
+DEV0009,Camera,Sony,Alpha ZV-E10,2023-12-12,848,Engineering,College Station,Maintenance
+DEV0010,Projector,Epson,PowerLite,2024-08-26,749,Research,Dallas,Available
+DEV0011,Laptop,Dell,Latitude 5440,2024-10-31,1338,Finance,Houston,Available
+DEV0012,Laptop,Apple,MacBook Air M3,2023-09-11,1630,Research,Dallas,Checked Out
+DEV0013,Laptop,Lenovo,ThinkPad T14,2024-03-29,1304,HR,College Station,Checked Out
+DEV0014,Monitor,Dell,P2425H,2024-12-17,282,Research,Dallas,Available
+DEV0015,Monitor,LG,27UP850,2024-04-07,442,Engineering,College Station,Checked Out
+DEV0016,Tablet,Apple,iPad Air,2022-01-10,682,Marketing,Houston,Checked Out
+DEV0017,Tablet,Samsung,Galaxy Tab S9,2023-12-24,684,Marketing,Austin,Available
+DEV0018,Camera,Canon,EOS R50,2022-07-01,838,Operations,Dallas,Available
+DEV0019,Camera,Sony,Alpha ZV-E10,2022-04-13,830,HR,Houston,Available
+DEV0020,Projector,Epson,PowerLite,2023-12-21,829,Operations,Austin,Available
+DEV0021,Laptop,Dell,Latitude 5440,2025-07-01,1330,Finance,College Station,Available
+DEV0022,Laptop,Apple,MacBook Air M3,2025-01-14,1436,Research,Dallas,Available
+DEV0023,Laptop,Lenovo,ThinkPad T14,2023-07-19,1208,Operations,Houston,Available
+DEV0024,Monitor,Dell,P2425H,2024-10-16,274,Marketing,College Station,Available
+DEV0025,Monitor,LG,27UP850,2023-03-11,408,Engineering,College Station,Available
+DEV0026,Tablet,Apple,iPad Air,2024-07-28,626,Research,Houston,Available
+DEV0027,Tablet,Samsung,Galaxy Tab S9,2023-10-09,758,HR,Austin,Available
+DEV0028,Camera,Canon,EOS R50,2023-05-11,895,Operations,Dallas,Available
+DEV0029,Camera,Sony,Alpha ZV-E10,2023-03-22,755,Engineering,Dallas,Available
+DEV0030,Projector,Epson,PowerLite,2025-03-27,757,HR,College Station,Checked Out
+DEV0031,Laptop,Dell,Latitude 5440,2022-12-06,1250,HR,Houston,Available
+DEV0032,Laptop,Apple,MacBook Air M3,2022-12-20,1508,Engineering,Dallas,Available
+DEV0033,Laptop,Lenovo,ThinkPad T14,2024-07-27,1273,Finance,Houston,Checked Out
+DEV0034,Monitor,Dell,P2425H,2022-08-18,281,Marketing,Houston,Available
+DEV0035,Monitor,LG,27UP850,2023-02-06,473,Operations,Austin,Available
+DEV0036,Tablet,Apple,iPad Air,2024-04-24,659,HR,Austin,Available
+DEV0037,Tablet,Samsung,Galaxy Tab S9,2022-09-02,740,Finance,Houston,Available
+DEV0038,Camera,Canon,EOS R50,2022-05-15,854,Finance,College Station,Available
+DEV0039,Camera,Sony,Alpha ZV-E10,2023-08-05,861,Marketing,Dallas,Maintenance
+DEV0040,Projector,Epson,PowerLite,2022-01-30,717,Marketing,College Station,Available
+DEV0041,Laptop,Dell,Latitude 5440,2022-12-25,1664,Marketing,Dallas,Available
+DEV0042,Laptop,Apple,MacBook Air M3,2025-05-04,1286,HR,Dallas,Available
+DEV0043,Laptop,Lenovo,ThinkPad T14,2023-12-10,1189,Operations,Dallas,Checked Out
+DEV0044,Monitor,Dell,P2425H,2022-01-29,283,Operations,Austin,Available
+DEV0045,Monitor,LG,27UP850,2023-02-15,404,Engineering,Austin,Available
+DEV0046,Tablet,Apple,iPad Air,2023-01-01,741,Research,College Station,Available
+DEV0047,Tablet,Samsung,Galaxy Tab S9,2024-03-10,652,Research,Austin,Available
+DEV0048,Camera,Canon,EOS R50,2022-02-18,1053,Finance,College Station,Checked Out
+DEV0049,Camera,Sony,Alpha ZV-E10,2025-06-06,881,Finance,Houston,Available
+DEV0050,Projector,Epson,PowerLite,2023-01-14,778,Research,College Station,Available
+DEV0051,Laptop,Dell,Latitude 5440,2023-11-25,1218,Engineering,College Station,Checked Out
+DEV0052,Laptop,Apple,MacBook Air M3,2025-07-14,1745,Research,College Station,Checked Out
+DEV0053,Laptop,Lenovo,ThinkPad T14,2022-05-31,1380,Operations,Austin,Available
+DEV0054,Monitor,Dell,P2425H,2024-09-30,304,Research,Austin,Available
+DEV0055,Monitor,LG,27UP850,2023-05-09,379,Finance,College Station,Available
+DEV0056,Tablet,Apple,iPad Air,2022-11-10,739,Research,Austin,Available
+DEV0057,Tablet,Samsung,Galaxy Tab S9,2023-04-23,657,Operations,Dallas,Checked Out
+DEV0058,Camera,Canon,EOS R50,2023-02-08,872,Marketing,Houston,Available
+DEV0059,Camera,Sony,Alpha ZV-E10,2025-04-29,912,Engineering,Dallas,Available
+DEV0060,Projector,Epson,PowerLite,2022-06-21,653,Finance,Houston,Available
+DEV0061,Laptop,Dell,Latitude 5440,2024-09-23,1256,Operations,College Station,Available
+DEV0062,Laptop,Apple,MacBook Air M3,2024-11-11,1386,HR,Austin,Available
+DEV0063,Laptop,Lenovo,ThinkPad T14,2024-01-08,1202,Research,College Station,Available
+DEV0064,Monitor,Dell,P2425H,2023-01-27,292,Finance,College Station,Available
+DEV0065,Monitor,LG,27UP850,2025-06-02,413,Research,Houston,Available
+DEV0066,Tablet,Apple,iPad Air,2023-12-23,594,HR,Austin,Available
+DEV0067,Tablet,Samsung,Galaxy Tab S9,2022-01-09,828,Research,Austin,Checked Out
+DEV0068,Camera,Canon,EOS R50,2025-04-27,795,Operations,College Station,Available
+DEV0069,Camera,Sony,Alpha ZV-E10,2024-05-12,773,Engineering,Dallas,Available
+DEV0070,Projector,Epson,PowerLite,2024-11-01,770,HR,Houston,Checked Out
+DEV0071,Laptop,Dell,Latitude 5440,2024-09-06,1293,Operations,Austin,Available
+DEV0072,Laptop,Apple,MacBook Air M3,2023-05-02,1539,Research,College Station,Available
+DEV0073,Laptop,Lenovo,ThinkPad T14,2023-11-22,1122,Finance,College Station,Checked Out
+DEV0074,Monitor,Dell,P2425H,2024-08-27,345,Research,Austin,Available
+DEV0075,Monitor,LG,27UP850,2023-04-11,478,Engineering,Dallas,Available
+DEV0076,Tablet,Apple,iPad Air,2023-02-08,690,Operations,Austin,Available
+DEV0077,Tablet,Samsung,Galaxy Tab S9,2024-01-21,641,Engineering,Houston,Available
+DEV0078,Camera,Canon,EOS R50,2022-01-28,916,HR,Austin,Available
+DEV0079,Camera,Sony,Alpha ZV-E10,2023-11-02,830,HR,College Station,Available
+DEV0080,Projector,Epson,PowerLite,2023-02-18,780,HR,College Station,Available
+DEV0081,Laptop,Dell,Latitude 5440,2023-10-04,1653,Finance,Austin,Available
+DEV0082,Laptop,Apple,MacBook Air M3,2022-11-21,1597,Finance,Austin,Available
+DEV0083,Laptop,Lenovo,ThinkPad T14,2025-04-18,1139,Operations,Austin,Available
+DEV0084,Monitor,Dell,P2425H,2024-12-19,290,HR,Austin,Checked Out
+DEV0085,Monitor,LG,27UP850,2024-11-06,383,Research,Dallas,Checked Out
+DEV0086,Tablet,Apple,iPad Air,2024-11-08,652,Operations,College Station,Available
+DEV0087,Tablet,Samsung,Galaxy Tab S9,2024-12-09,728,Operations,College Station,Available
+DEV0088,Camera,Canon,EOS R50,2025-01-19,883,HR,Houston,Available
+DEV0089,Camera,Sony,Alpha ZV-E10,2022-03-21,705,Engineering,Austin,Available
+DEV0090,Projector,Epson,PowerLite,2023-06-26,685,Operations,Dallas,Available
+DEV0091,Laptop,Dell,Latitude 5440,2023-07-19,1237,Marketing,Austin,Checked Out
+DEV0092,Laptop,Apple,MacBook Air M3,2023-01-21,1622,Research,Dallas,Available
+DEV0093,Laptop,Lenovo,ThinkPad T14,2023-08-22,1424,Operations,Dallas,Checked Out
+DEV0094,Monitor,Dell,P2425H,2024-04-28,274,HR,Houston,Available
+DEV0095,Monitor,LG,27UP850,2022-08-18,381,HR,Houston,Checked Out
+DEV0096,Tablet,Apple,iPad Air,2024-06-22,653,Research,Houston,Available
+DEV0097,Tablet,Samsung,Galaxy Tab S9,2024-03-19,762,HR,Houston,Available
+DEV0098,Camera,Canon,EOS R50,2025-05-01,816,Finance,College Station,Available
+DEV0099,Camera,Sony,Alpha ZV-E10,2023-08-02,775,HR,College Station,Available
+DEV0100,Projector,Epson,PowerLite,2025-05-14,705,Engineering,Austin,Available
+DEV0101,Laptop,Dell,Latitude 5440,2022-08-07,1474,Finance,Austin,Available
+DEV0102,Laptop,Apple,MacBook Air M3,2024-01-15,1587,HR,College Station,Checked Out
+DEV0103,Laptop,Lenovo,ThinkPad T14,2023-11-05,1044,Marketing,Austin,Available
+DEV0104,Monitor,Dell,P2425H,2025-04-25,245,HR,Austin,Available
+DEV0105,Monitor,LG,27UP850,2024-08-05,401,Marketing,Austin,Available
+DEV0106,Tablet,Apple,iPad Air,2024-05-22,662,HR,College Station,Available
+DEV0107,Tablet,Samsung,Galaxy Tab S9,2024-10-30,712,Marketing,Dallas,Available
+DEV0108,Camera,Canon,EOS R50,2022-07-24,971,Operations,Dallas,Available
+DEV0109,Camera,Sony,Alpha ZV-E10,2022-06-16,772,HR,College Station,Checked Out
+DEV0110,Projector,Epson,PowerLite,2025-05-01,832,Engineering,Dallas,Maintenance
+DEV0111,Laptop,Dell,Latitude 5440,2022-01-07,1440,HR,Dallas,Checked Out
+DEV0112,Laptop,Apple,MacBook Air M3,2022-06-04,1525,Engineering,Austin,Available
+DEV0113,Laptop,Lenovo,ThinkPad T14,2022-02-12,1260,HR,Austin,Checked Out
+DEV0114,Monitor,Dell,P2425H,2023-08-14,252,Research,Dallas,Available
+DEV0115,Monitor,LG,27UP850,2022-01-16,437,Finance,Houston,Available
+DEV0116,Tablet,Apple,iPad Air,2024-10-12,530,Engineering,College Station,Available
+DEV0117,Tablet,Samsung,Galaxy Tab S9,2024-10-08,760,Research,Houston,Available
+DEV0118,Camera,Canon,EOS R50,2025-07-22,909,Operations,Austin,Checked Out
+DEV0119,Camera,Sony,Alpha ZV-E10,2025-01-27,774,Engineering,Dallas,Checked Out
+DEV0120,Projector,Epson,PowerLite,2022-07-05,831,Engineering,College Station,Available
+DEV0121,Laptop,Dell,Latitude 5440,2025-03-28,1338,Engineering,Austin,Available
+DEV0122,Laptop,Apple,MacBook Air M3,2022-03-09,1390,Research,Austin,Checked Out
+DEV0123,Laptop,Lenovo,ThinkPad T14,2022-11-15,1324,Engineering,College Station,Checked Out
+DEV0124,Monitor,Dell,P2425H,2025-04-21,304,HR,College Station,Available
+DEV0125,Monitor,LG,27UP850,2023-08-17,465,Finance,Houston,Checked Out
+DEV0126,Tablet,Apple,iPad Air,2024-03-30,620,HR,Houston,Available
+DEV0127,Tablet,Samsung,Galaxy Tab S9,2022-01-21,766,Finance,Houston,Available
+DEV0128,Camera,Canon,EOS R50,2025-06-28,928,Engineering,Houston,Available
+DEV0129,Camera,Sony,Alpha ZV-E10,2022-10-12,700,Research,Dallas,Available
+DEV0130,Projector,Epson,PowerLite,2022-08-14,747,Marketing,College Station,Available
+DEV0131,Laptop,Dell,Latitude 5440,2023-12-07,1330,HR,College Station,Available
+DEV0132,Laptop,Apple,MacBook Air M3,2024-01-15,1713,Operations,Dallas,Available
+DEV0133,Laptop,Lenovo,ThinkPad T14,2023-11-30,1217,HR,Dallas,Available
+DEV0134,Monitor,Dell,P2425H,2025-05-07,278,HR,Dallas,Available
+DEV0135,Monitor,LG,27UP850,2022-06-18,422,Engineering,College Station,Available
+DEV0136,Tablet,Apple,iPad Air,2022-12-28,607,HR,Houston,Available
+DEV0137,Tablet,Samsung,Galaxy Tab S9,2025-06-16,672,Marketing,College Station,Available
+DEV0138,Camera,Canon,EOS R50,2022-10-10,820,Research,Austin,Available
+DEV0139,Camera,Sony,Alpha ZV-E10,2023-09-13,892,Marketing,Austin,Available
+DEV0140,Projector,Epson,PowerLite,2024-01-15,755,Operations,Houston,Available
+DEV0141,Laptop,Dell,Latitude 5440,2024-03-12,1314,Finance,Dallas,Available
+DEV0142,Laptop,Apple,MacBook Air M3,2023-12-15,1550,Operations,Dallas,Available
+DEV0143,Laptop,Lenovo,ThinkPad T14,2024-11-16,1259,HR,Austin,Available
+DEV0144,Monitor,Dell,P2425H,2025-04-12,277,Finance,College Station,Available
+DEV0145,Monitor,LG,27UP850,2023-11-07,442,Research,College Station,Available
+DEV0146,Tablet,Apple,iPad Air,2024-12-30,636,Operations,Dallas,Available
+DEV0147,Tablet,Samsung,Galaxy Tab S9,2024-08-08,615,Finance,College Station,Checked Out
+DEV0148,Camera,Canon,EOS R50,2022-01-20,793,Marketing,Dallas,Available
+DEV0149,Camera,Sony,Alpha ZV-E10,2022-11-08,722,Operations,Houston,Maintenance
+DEV0150,Projector,Epson,PowerLite,2023-04-20,931,Marketing,College Station,Available
+DEV0151,Laptop,Dell,Latitude 5440,2024-09-28,1182,HR,College Station,Available
+DEV0152,Laptop,Apple,MacBook Air M3,2023-05-20,1540,HR,Austin,Available
+DEV0153,Laptop,Lenovo,ThinkPad T14,2023-08-30,1182,Engineering,Dallas,Maintenance
+DEV0154,Monitor,Dell,P2425H,2024-12-23,259,Finance,College Station,Maintenance
+DEV0155,Monitor,LG,27UP850,2024-04-26,467,Engineering,College Station,Available
+DEV0156,Tablet,Apple,iPad Air,2023-05-26,656,Engineering,Dallas,Available
+DEV0157,Tablet,Samsung,Galaxy Tab S9,2025-04-09,666,Engineering,Austin,Available
+DEV0158,Camera,Canon,EOS R50,2025-03-25,788,Finance,Dallas,Available
+DEV0159,Camera,Sony,Alpha ZV-E10,2025-07-18,663,Operations,Austin,Available
+DEV0160,Projector,Epson,PowerLite,2022-04-20,729,Research,Houston,Available
+DEV0161,Laptop,Dell,Latitude 5440,2023-06-13,1333,HR,Houston,Available
+DEV0162,Laptop,Apple,MacBook Air M3,2022-03-17,1637,Research,Dallas,Checked Out
+DEV0163,Laptop,Lenovo,ThinkPad T14,2023-03-07,1279,Marketing,Houston,Available
+DEV0164,Monitor,Dell,P2425H,2025-01-12,274,Finance,Houston,Checked Out
+DEV0165,Monitor,LG,27UP850,2023-05-15,391,Marketing,Austin,Checked Out
+DEV0166,Tablet,Apple,iPad Air,2023-06-03,652,Marketing,Austin,Available
+DEV0167,Tablet,Samsung,Galaxy Tab S9,2023-02-16,711,Finance,Houston,Available
+DEV0168,Camera,Canon,EOS R50,2025-04-20,913,Engineering,Houston,Available
+DEV0169,Camera,Sony,Alpha ZV-E10,2023-06-25,761,Finance,Houston,Maintenance
+DEV0170,Projector,Epson,PowerLite,2024-04-03,863,Research,Dallas,Checked Out
+DEV0171,Laptop,Dell,Latitude 5440,2024-04-26,1090,Research,Dallas,Checked Out
+DEV0172,Laptop,Apple,MacBook Air M3,2025-06-06,1418,Engineering,Austin,Available
+DEV0173,Laptop,Lenovo,ThinkPad T14,2024-11-17,1167,Marketing,College Station,Maintenance
+DEV0174,Monitor,Dell,P2425H,2024-04-30,253,Engineering,Dallas,Available
+DEV0175,Monitor,LG,27UP850,2025-06-15,406,HR,Austin,Available
+DEV0176,Tablet,Apple,iPad Air,2022-06-11,628,Research,Dallas,Maintenance
+DEV0177,Tablet,Samsung,Galaxy Tab S9,2025-01-22,618,Marketing,Austin,Checked Out
+DEV0178,Camera,Canon,EOS R50,2023-06-20,991,Finance,Houston,Checked Out
+DEV0179,Camera,Sony,Alpha ZV-E10,2022-12-12,870,Research,Austin,Available
+DEV0180,Projector,Epson,PowerLite,2022-02-18,813,Marketing,Austin,Available
+DEV0181,Laptop,Dell,Latitude 5440,2024-09-18,1398,HR,Austin,Available
+DEV0182,Laptop,Apple,MacBook Air M3,2025-01-30,1638,Marketing,Austin,Available
+DEV0183,Laptop,Lenovo,ThinkPad T14,2022-05-13,1206,Operations,Dallas,Available
+DEV0184,Monitor,Dell,P2425H,2022-01-06,267,Operations,Austin,Available
+DEV0185,Monitor,LG,27UP850,2024-06-28,465,Research,Dallas,Checked Out
+DEV0186,Tablet,Apple,iPad Air,2022-11-05,733,HR,College Station,Available
+DEV0187,Tablet,Samsung,Galaxy Tab S9,2024-07-11,703,Operations,Austin,Checked Out
+DEV0188,Camera,Canon,EOS R50,2022-12-24,820,HR,Austin,Available
+DEV0189,Camera,Sony,Alpha ZV-E10,2023-08-08,865,HR,Houston,Available
+DEV0190,Projector,Epson,PowerLite,2025-07-22,759,Operations,Austin,Available
+DEV0191,Laptop,Dell,Latitude 5440,2022-08-31,1213,Research,Houston,Available
+DEV0192,Laptop,Apple,MacBook Air M3,2024-02-13,1502,Finance,Dallas,Available
+DEV0193,Laptop,Lenovo,ThinkPad T14,2022-05-14,1140,Marketing,Dallas,Available
+DEV0194,Monitor,Dell,P2425H,2022-09-20,261,Research,Houston,Available
+DEV0195,Monitor,LG,27UP850,2023-08-08,364,Marketing,College Station,Available
+DEV0196,Tablet,Apple,iPad Air,2024-09-04,633,Marketing,College Station,Available
+DEV0197,Tablet,Samsung,Galaxy Tab S9,2023-12-30,747,Finance,Dallas,Available
+DEV0198,Camera,Canon,EOS R50,2023-11-20,956,Operations,Houston,Available
+DEV0199,Camera,Sony,Alpha ZV-E10,2025-01-15,874,Finance,Austin,Checked Out
+DEV0200,Projector,Epson,PowerLite,2022-07-22,804,Engineering,Houston,Checked Out
+DEV0201,Laptop,Dell,Latitude 5440,2024-01-31,1438,HR,College Station,Maintenance
+DEV0202,Laptop,Apple,MacBook Air M3,2023-09-12,1486,Finance,College Station,Checked Out
+DEV0203,Laptop,Lenovo,ThinkPad T14,2022-12-14,1203,HR,Austin,Available
+DEV0204,Monitor,Dell,P2425H,2024-01-01,270,Finance,College Station,Available
+DEV0205,Monitor,LG,27UP850,2025-04-30,451,Marketing,College Station,Available
+DEV0206,Tablet,Apple,iPad Air,2025-06-01,610,Engineering,Austin,Available
+DEV0207,Tablet,Samsung,Galaxy Tab S9,2025-07-03,709,Marketing,College Station,Available
+DEV0208,Camera,Canon,EOS R50,2023-02-11,826,Operations,Dallas,Available
+DEV0209,Camera,Sony,Alpha ZV-E10,2025-03-13,761,HR,College Station,Available
+DEV0210,Projector,Epson,PowerLite,2023-01-28,820,Engineering,Austin,Available
+DEV0211,Laptop,Dell,Latitude 5440,2023-06-24,1349,Research,Austin,Available
+DEV0212,Laptop,Apple,MacBook Air M3,2023-10-23,1357,Marketing,Dallas,Checked Out
+DEV0213,Laptop,Lenovo,ThinkPad T14,2023-08-31,1241,Research,Austin,Available
+DEV0214,Monitor,Dell,P2425H,2023-02-24,247,Research,Houston,Available
+DEV0215,Monitor,LG,27UP850,2024-08-25,445,Finance,Dallas,Available
+DEV0216,Tablet,Apple,iPad Air,2022-03-05,673,Finance,Austin,Available
+DEV0217,Tablet,Samsung,Galaxy Tab S9,2023-02-19,736,Engineering,Austin,Available
+DEV0218,Camera,Canon,EOS R50,2022-01-13,958,Engineering,Austin,Available
+DEV0219,Camera,Sony,Alpha ZV-E10,2023-09-11,897,Finance,Austin,Checked Out
+DEV0220,Projector,Epson,PowerLite,2024-02-07,786,Finance,College Station,Available
+DEV0221,Laptop,Dell,Latitude 5440,2023-08-19,1310,Engineering,College Station,Available
+DEV0222,Laptop,Apple,MacBook Air M3,2025-01-17,1513,Operations,Dallas,Available
+DEV0223,Laptop,Lenovo,ThinkPad T14,2025-03-28,1363,Research,Houston,Available
+DEV0224,Monitor,Dell,P2425H,2024-11-23,294,Engineering,Houston,Available
+DEV0225,Monitor,LG,27UP850,2023-11-02,444,Marketing,College Station,Available
+DEV0226,Tablet,Apple,iPad Air,2022-04-12,558,Marketing,Austin,Available
+DEV0227,Tablet,Samsung,Galaxy Tab S9,2024-05-06,816,HR,Dallas,Available
+DEV0228,Camera,Canon,EOS R50,2024-08-18,918,Engineering,Houston,Available
+DEV0229,Camera,Sony,Alpha ZV-E10,2024-10-06,749,Engineering,Austin,Available
+DEV0230,Projector,Epson,PowerLite,2022-08-13,699,Finance,Austin,Available
+DEV0231,Laptop,Dell,Latitude 5440,2023-12-21,1446,Research,Dallas,Checked Out
+DEV0232,Laptop,Apple,MacBook Air M3,2022-06-14,1555,Marketing,Houston,Available
+DEV0233,Laptop,Lenovo,ThinkPad T14,2022-08-26,1176,Finance,Dallas,Available
+DEV0234,Monitor,Dell,P2425H,2024-02-12,288,Research,College Station,Available
+DEV0235,Monitor,LG,27UP850,2022-03-09,455,Operations,College Station,Available
+DEV0236,Tablet,Apple,iPad Air,2025-02-10,607,Finance,Houston,Available
+DEV0237,Tablet,Samsung,Galaxy Tab S9,2024-09-04,794,HR,College Station,Checked Out
+DEV0238,Camera,Canon,EOS R50,2024-01-08,811,Engineering,Dallas,Available
+DEV0239,Camera,Sony,Alpha ZV-E10,2025-05-10,783,Engineering,Dallas,Available
+DEV0240,Projector,Epson,PowerLite,2023-11-08,741,HR,College Station,Available
+DEV0241,Laptop,Dell,Latitude 5440,2022-07-28,1379,HR,Dallas,Available
+DEV0242,Laptop,Apple,MacBook Air M3,2025-06-04,1728,Research,College Station,Checked Out
+DEV0243,Laptop,Lenovo,ThinkPad T14,2022-11-13,1039,Finance,College Station,Checked Out
+DEV0244,Monitor,Dell,P2425H,2024-08-11,280,Marketing,Houston,Available
+DEV0245,Monitor,LG,27UP850,2024-04-28,433,HR,College Station,Available
+DEV0246,Tablet,Apple,iPad Air,2024-01-11,631,HR,College Station,Checked Out
+DEV0247,Tablet,Samsung,Galaxy Tab S9,2023-10-16,802,Engineering,Dallas,Available
+DEV0248,Camera,Canon,EOS R50,2024-08-24,1037,Research,Dallas,Available
+DEV0249,Camera,Sony,Alpha ZV-E10,2025-04-25,828,Research,Houston,Available
+DEV0250,Projector,Epson,PowerLite,2023-02-19,833,Marketing,Dallas,Available
+DEV0251,Laptop,Dell,Latitude 5440,2024-01-19,1298,Research,Austin,Available
+DEV0252,Laptop,Apple,MacBook Air M3,2022-09-13,1584,HR,Austin,Available
+DEV0253,Laptop,Lenovo,ThinkPad T14,2023-02-05,1057,HR,Austin,Available
+DEV0254,Monitor,Dell,P2425H,2025-05-26,248,Marketing,College Station,Checked Out
+DEV0255,Monitor,LG,27UP850,2023-03-23,447,Finance,College Station,Available
+DEV0256,Tablet,Apple,iPad Air,2022-08-30,620,Marketing,Dallas,Available
+DEV0257,Tablet,Samsung,Galaxy Tab S9,2022-01-12,761,Marketing,Austin,Available
+DEV0258,Camera,Canon,EOS R50,2024-04-28,759,Finance,Dallas,Available
+DEV0259,Camera,Sony,Alpha ZV-E10,2023-02-11,819,HR,College Station,Maintenance
+DEV0260,Projector,Epson,PowerLite,2025-03-18,711,Marketing,College Station,Available

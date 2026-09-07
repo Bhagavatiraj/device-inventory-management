@@ -1,0 +1,6 @@
+check,count
+raw_transactions,9015
+duplicate_transactions_removed,15
+missing_timestamps_removed,4
+invalid_timestamp_order_removed,4
+invalid_foreign_keys_removed,0
