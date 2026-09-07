@@ -74,8 +74,3 @@ Running the pipeline generates:
 - EDA plots
 - Automated Markdown analytics report
 
-## Resume-Safe Description
-Built a Python-based device inventory analytics platform using synthetic checkout data to analyze utilization, demand, and borrowing behavior; applied statistical analysis, IQR-based outlier detection, and Random Forest modeling to generate operational insights.
-
-## Limitations
-The current data is synthetic. Forecasting performance should be interpreted as a demonstration of the pipeline and modeling methodology rather than a production forecast.
