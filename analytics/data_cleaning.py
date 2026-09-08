@@ -4,10 +4,17 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 RAW, PROCESSED, OUTPUT = ROOT/"data/raw", ROOT/"data/processed", ROOT/"output"
 
+def read_source(name, **kwargs):
+    excel_path = RAW / f"{name}.xlsx"
+    csv_path = RAW / f"{name}.csv"
+    if excel_path.exists():
+        return pd.read_excel(excel_path, **kwargs)
+    return pd.read_csv(csv_path, **kwargs)
+
 def load_and_clean():
-    devices = pd.read_csv(RAW/"devices.csv", parse_dates=["purchase_date"])
-    employees = pd.read_csv(RAW/"employees.csv")
-    tx = pd.read_csv(RAW/"checkout_history.csv",
+    devices = read_source("devices", parse_dates=["purchase_date"])
+    employees = read_source("employees")
+    tx = read_source("checkout_history",
                      parse_dates=["checkout_timestamp","return_timestamp"])
 
     report = []

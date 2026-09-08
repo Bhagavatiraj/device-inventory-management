@@ -1,7 +1,7 @@
 # Device Inventory Intelligence & Utilization Analytics
 
 ## Overview
-A Python-based analytics project that simulates organizational device inventory and checkout activity, then measures utilization, demand, employee usage, data quality, and prolonged checkout behavior. The project also trains a baseline Random Forest model for device-demand analytics and exposes results through a Streamlit dashboard.
+A Python-based analytics project that simulates organizational device inventory and timestamped checkout/return activity, then measures utilization, borrowing frequency, device turnaround time, demand, employee usage, data quality, and prolonged checkout behavior. It accepts Excel source files when present and falls back to the included synthetic CSV data. The project also trains a baseline Random Forest model for device-demand analytics and exposes results through a Streamlit dashboard.
 
 > **Data transparency:** The included datasets are synthetic and reproducibly generated with a fixed random seed. They are intended for portfolio demonstration and must not be represented as real organizational data.
 
@@ -9,6 +9,8 @@ A Python-based analytics project that simulates organizational device inventory 
 - Data cleaning and quality validation
 - Exploratory data analysis
 - Device-level utilization measurement
+- Borrowing frequency per device-month
+- Device turnaround time between return and next checkout
 - Employee usage analysis
 - Device-type demand analysis
 - Descriptive statistics and correlation analysis
@@ -25,6 +27,8 @@ data/processed/     Cleaned datasets
 dashboard/          Streamlit dashboard
 output/             Generated reports, CSVs, plots and model metrics
 ```
+
+To use timestamped Excel data, place `devices.xlsx`, `employees.xlsx`, and `checkout_history.xlsx` in `data/raw/` with the same column names as the included CSV files. Excel files take precedence over CSV files.
 
 ## Quick Start
 ```bash
@@ -45,6 +49,10 @@ streamlit run dashboard/app.py
 For each device:
 
 `utilization rate = total checkout duration / common observation period`
+
+### Borrowing Frequency and Turnaround
+- Borrowing frequency is the number of checkouts per device-month across the observation period.
+- Turnaround time is the non-overlapping interval between a device return and its next checkout. Overlapping checkout records are excluded from turnaround averages.
 
 ### Inventory Segmentation
 - Underutilized: bottom utilization quartile
@@ -67,6 +75,7 @@ Running the pipeline generates:
 - `device_utilization.csv`
 - `device_type_summary.csv`
 - `employee_usage.csv`
+- `device_utilization.csv` includes borrowing frequency and turnaround metrics
 - `underutilized_devices.csv`
 - `high_demand_devices.csv`
 - `statistical_summary.json`

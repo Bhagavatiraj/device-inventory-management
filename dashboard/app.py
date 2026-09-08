@@ -23,11 +23,21 @@ c2.metric("Total Checkouts", f"{devices.checkout_count.sum():,}")
 c3.metric("Avg Utilization", f"{devices.utilization_rate.mean():.1%}")
 c4.metric("Underutilized", int((devices.utilization_segment=="Underutilized").sum()))
 
+st.metric("Avg Turnaround", f"{devices.avg_turnaround_hours.mean():.1f} hours")
+
 st.subheader("Device Demand")
 st.plotly_chart(px.bar(types, x="device_type", y="total_checkouts", title="Checkouts by Device Type"), use_container_width=True)
 
 st.subheader("Utilization")
 st.plotly_chart(px.box(devices, x="device_type", y="utilization_rate", title="Utilization Distribution"), use_container_width=True)
+
+st.subheader("Borrowing Frequency and Turnaround")
+st.plotly_chart(px.scatter(
+    devices, x="borrowing_frequency_per_month", y="avg_turnaround_hours",
+    color="device_type", hover_name="device_id",
+    labels={"borrowing_frequency_per_month":"Checkouts per device-month", "avg_turnaround_hours":"Average turnaround (hours)"},
+    title="Device borrowing frequency versus turnaround"
+), use_container_width=True)
 
 st.subheader("Inventory Explorer")
 st.dataframe(devices.sort_values("utilization_rate", ascending=False), use_container_width=True)

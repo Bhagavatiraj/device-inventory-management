@@ -16,6 +16,15 @@ def run_statistics(device_stats, tx):
             "q75": float(duration.quantile(.75))
         }
     }
+    turnaround = tx["turnaround_hours"].dropna()
+    if len(turnaround):
+        summary["turnaround_hours"] = {
+            "records_analyzed": int(len(turnaround)),
+            "mean": float(turnaround.mean()), "median": float(turnaround.median()),
+            "std": float(turnaround.std()), "min": float(turnaround.min()),
+            "max": float(turnaround.max()), "q25": float(turnaround.quantile(.25)),
+            "q75": float(turnaround.quantile(.75))
+        }
     if len(device_stats) > 2:
         p = pearsonr(device_stats.checkout_count, device_stats.utilization_rate)
         s = spearmanr(device_stats.checkout_count, device_stats.utilization_rate)

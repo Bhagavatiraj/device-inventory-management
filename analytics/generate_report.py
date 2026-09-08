@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 from analytics.data_generator import generate
 from analytics.data_cleaning import load_and_clean
-from analytics.inventory_analysis import device_utilization, device_type_summary
+from analytics.inventory_analysis import add_turnaround_metrics, device_utilization, device_type_summary
 from analytics.employee_analysis import employee_usage
 from analytics.statistical_analysis import run_statistics
 from analytics.forecasting import train_demand_model
@@ -18,6 +18,8 @@ def main():
         generate()
 
     devices, employees, tx = load_and_clean()
+    tx = add_turnaround_metrics(tx)
+    tx.to_csv(ROOT/"data/processed/checkout_history_clean.csv", index=False)
     device_stats, observation_hours = device_utilization(devices, tx)
     type_summary = device_type_summary(device_stats)
     emp = employee_usage(employees, tx)
@@ -45,6 +47,11 @@ def main():
 - Median: **{stats['duration_hours']['median']:.2f} hours**
 - Standard deviation: **{stats['duration_hours']['std']:.2f} hours**
 
+## Borrowing and Turnaround
+- Average borrowing frequency: **{device_stats['borrowing_frequency_per_month'].mean():.2f} checkouts per device-month**
+- Average device turnaround: **{stats['turnaround_hours']['mean']:.2f} hours**
+- Median device turnaround: **{stats['turnaround_hours']['median']:.2f} hours**
+
 ## Predictive Demand Model
 - MAE: **{metrics['MAE']:.2f}**
 - RMSE: **{metrics['RMSE']:.2f}**
@@ -54,7 +61,7 @@ def main():
 """ + "\n".join(f"- {r}" for r in recs) + """
 
 ## Methodology Notes
-Utilization is calculated as total checkout duration divided by the common observation period. Underutilized and highly utilized devices are defined using the bottom and top utilization quartiles. Prolonged checkout records are identified using the IQR outlier rule.
+Utilization is calculated as total checkout duration divided by the common observation period. Borrowing frequency is the number of checkouts per device-month. Turnaround is the non-overlapping time between a device return and its next checkout; overlapping records are excluded from turnaround averages. Underutilized and highly utilized devices are defined using the bottom and top utilization quartiles. Prolonged checkout records are identified using the IQR outlier rule.
 
 ## Limitation
 The included source data is synthetic and intended for portfolio demonstration. The analytics pipeline can be applied to real organizational checkout data with compatible fields.
